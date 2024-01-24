@@ -1,0 +1,43 @@
+Palíndromo Checker
+
+Un palíndromo es una palabra o frase que se puede leer de la misma manera de izquierda a derecha y viceversa, ignorando la puntuación, mayúsculas y espacios.
+
+Objetivo: Construir una aplicación funcionalmente similar a https://palindrome-checker.freecodecamp.rocks
+
+Historias de Usuario:
+
+Deberías tener un elemento de entrada con un id de text-input.
+
+Deberías tener un elemento de botón con un id de check-btn.
+
+Deberías tener un elemento div con un id de result.
+
+Al hacer clic en el elemento #check-btn sin ingresar un valor en el elemento #text-input, debería aparecer una alerta con el texto "Por favor, ingresa un valor".
+
+Cuando el elemento #text-input solo contiene la letra A y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "A is a palindrome".
+
+Cuando el elemento #text-input contiene el texto "eye" y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "eye is a palindrome".
+
+Cuando el elemento #text-input contiene el texto "_eye" y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "_eye is a palindrome".
+
+Cuando el elemento #text-input contiene el texto "race car" y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "race car is a palindrome".
+
+Cuando el elemento #text-input contiene el texto "not a palindrome" y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "not a palindrome is not a palindrome".
+
+Cuando el elemento #test-input contiene el texto "A man, a plan, a canal. Panama" y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "A man, a plan, a canal. Panama is a palindrome".
+
+Cuando el elemento #text-input contiene el texto "never odd or even" y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "never odd or even is a palindrome".
+
+Cuando el elemento #text-input contiene el texto "nope" y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "nope is not a palindrome".
+
+Cuando el elemento #text-input contiene el texto "almostomla" y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "almostomla is not a palindrome".
+
+Cuando el elemento #text-input contiene el texto "My age is 0, 0 si ega ym." y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "My age is 0, 0 si ega ym. is a palindrome".
+
+Cuando el elemento #text-input contiene el texto "1 eye for of 1 eye." y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "1 eye for of 1 eye. is not a palindrome".
+
+Cuando el elemento #text-input contiene el texto "0_0 (: /-\ :) 0-0" y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "0_0 (: /-\ :) 0-0 is a palindrome".
+
+Cuando el elemento #text-input contiene el texto "five|_/|four" y se hace clic en el elemento #check-btn, el elemento #result debería contener el texto "five|_/|four is not a palindrome".
+
+Cumple con las historias de usuario y pasa todas las pruebas para completar este proyecto. Dale tu propio estilo personal. ¡Feliz codificación!
